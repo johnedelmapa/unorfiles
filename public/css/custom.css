@@ -1,0 +1,76 @@
+.navbar {
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+}
+
+
+.bg-company-red {
+    background-color: #0588fb;
+}
+
+.navbar .navbar-nav > li > a {
+  color: inherit;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+  color: inherit;
+  background-color: transparent;
+}
+
+
+.navbar .navbar-brand {
+  position: relative;
+  height: 50px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+.navbar .navbar-nav > li > a {
+  color: #ffffff  !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+  color: #ffe600;
+  background-color: transparent;
+}
+
+.navbar .navbar-nav > li > a {
+  color: #ffe600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.nav-item.active .nav-link,
+.nav-item:hover .nav-link {
+    color: #ffe600 !important;
+}
+
+.btn.btn-primary{
+    width: 80px;
+}
+
+.btn.btn-danger{
+    width: 80px;
+}
+
+

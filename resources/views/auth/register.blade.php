@@ -43,19 +43,22 @@
                             <label for="gender" class="col-md-4 col-form-label text-md-right">{{ __('Gender') }}</label>
 
                             <div class="col-md-6">
-                                <input id="gender" type="gender" class="form-control{{ $errors->has('gender') ? ' is-invalid' : '' }}" name="gender" value="{{ old('email') }}" required>
+                                <select id="gender" type="gender" class="form-control{{ $errors->has('gender') ? ' is-invalid' : '' }}" name="gender" value="{{ old('email') }}" required>
+                                
+                                <option>Male</option>
+                                <option>Female</option>
 
                                 @if ($errors->has('gender'))
                                     <span class="invalid-feedback">
                                         <strong>{{ $errors->first('gender') }}</strong>
                                     </span>
-                                @endif
+                                @endif </select>
                             </div>
                         </div>
 
                          <div class="form-group row">
                             <label for="codename" class="col-md-4 col-form-label text-md-right">{{ __('Codename') }}</label>
-
+                            
                             <div class="col-md-6">
                                 <input id="codename" type="codename" class="form-control{{ $errors->has('codename') ? ' is-invalid' : '' }}" name="codename" value="{{ old('codename') }}" required>
 
@@ -72,13 +75,18 @@
                             <label for="college" class="col-md-4 col-form-label text-md-right">{{ __('College') }}</label>
 
                             <div class="col-md-6">
-                                <input id="college" type="college" class="form-control{{ $errors->has('college') ? ' is-invalid' : '' }}" name="college" value="{{ old('college') }}" required>
-
+                                <select id="college" type="college" class="form-control{{ $errors->has('college') ? ' is-invalid' : '' }}" name="college" value="{{ old('college') }}" required>
+                                    <option>College of Business and Accountancy</option>
+                                    <option>College of Arts and Sciences</option>
+                                    <option>College of Engineering</option>
+                                    <option>College of Allied and Health Sciences</option>
+                                    <option>Junior High school</option>
+                                    <option>Senior High school</option>
                                 @if ($errors->has('college'))
                                     <span class="invalid-feedback">
                                         <strong>{{ $errors->first('college') }}</strong>
                                     </span>
-                                @endif
+                                @endif </select>
                             </div>
                         </div>
 
