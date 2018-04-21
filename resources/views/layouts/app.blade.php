@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <title>{{config('app.name', 'UNOR Files')}}</title>
+        <link rel="shortcut icon" type="image/x-icon" href="{{asset('img/unor.png')}}" />
     </head>
     <body>
         @include('inc.navbar')
