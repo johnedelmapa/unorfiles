@@ -2,6 +2,7 @@
 {{-- javascript link  --}}
 <script type = "text/javascript" src="{{URL::asset('js/app.js')}}"></script>
 <script type = "text/javascript" src="{{URL::asset('js/material-kit.js')}}"></script>
+<script type = "text/javascript" src="{{URL::asset('js/emojionearea.min.js')}}"></script>
 
 {{-- CKeditor --}}
 <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
@@ -21,5 +22,14 @@ if (result) {
     }
 }   
 </script>
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#emoji").emojioneArea();
+  });
+</script>
+
+
     </body>
 </html>
